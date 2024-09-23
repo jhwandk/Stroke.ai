@@ -1,7 +1,5 @@
 Stroke.ai - Stroke Risk Prediction
 
-Overview
-
 This project predicts an individual's risk of having a stroke based on health factors like age, hypertension, heart disease, glucose level, BMI, and smoking status. It uses a logistic regression model and includes visualizations to show the importance of each factor and how glucose levels vary between high and low-risk individuals.
 
 Features
