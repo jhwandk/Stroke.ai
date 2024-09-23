@@ -1,19 +1,27 @@
-Stroke.ai - Stroke Risk Prediction
+Stroke.ai
 
-This project predicts an individual's risk of having a stroke based on health factors like age, hypertension, heart disease, glucose level, BMI, and smoking status. It uses a logistic regression model and includes visualizations to show the importance of each factor and how glucose levels vary between high and low-risk individuals.
+Author: Jinhwan Kim
 
-Features
-- Predicts stroke risk using health data.
-- Includes visualizations:
-  - Shows which factors contribute the most to stroke risk.
-  - Compares glucose levels in people with high and low stroke risk.
-  - Displays the ratio of high-risk to low-risk individuals.
+Date: 9/7/2024
 
-Files
-1. main.py: Script that handles predictions and generates visualizations.
-2. stroke.csv: Dataset used for training and predictions.
-3. C964 Task 2 - Jinhwan Kim.html: Documentation in HTML format.
+This project uses machine learning to predict stroke risk based on patient data. It helps healthcare providers assess and mitigate risks by analyzing medical attributes such as age, blood pressure, and smoking status.
 
-How to Run
-1. Clone the repository:
-   git clone https://github.com/your-username/Stroke-Prediction.git
+Features:
+
+Predict stroke risk using patient data.
+Encode categorical data for proper model training.
+Resample high-risk cases to balance the dataset.
+Display stroke prediction and the probability of occurrence.
+Show visualizations, including feature importance and average glucose level distributions.
+Perform cross-validation for model evaluation.
+Usage:
+
+Run the script.
+Input patient data (gender, age, hypertension, heart disease, average glucose level, BMI, smoking status).
+View the stroke risk prediction and the estimated probability of stroke.
+Choose to view visualizations, including feature importance and data distributions.
+Analyze results for further decision-making.
+Requirements:
+
+Python 3.x
+Libraries: numpy, pandas, matplotlib, scikit-learn
